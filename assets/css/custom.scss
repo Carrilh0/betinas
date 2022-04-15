@@ -1,0 +1,39 @@
+.content-text {
+    span {
+        b {
+            font-size: 25px;
+        }
+    }
+
+    p {
+        strong {
+            font-weight: 900;
+        }
+
+        margin: 5px 0;
+        font-weight: 300;
+    }
+
+    .description {
+        margin-bottom: 15px;
+    }
+}
+
+.service-thumb {
+    &.sticky {
+        height: 100%;
+
+        img {
+            position: sticky;
+            top: 20vh;
+        }
+    }
+}
+
+.service-area {
+    .single-service {
+        h3, p {
+            color: #0564AD;
+        }
+    }
+}

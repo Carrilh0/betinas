@@ -1,0 +1,20 @@
+.content-text span b {
+  font-size: 25px; }
+.content-text p {
+  margin: 5px 0;
+  font-weight: 300; }
+  .content-text p strong {
+    font-weight: 900; }
+.content-text .description {
+  margin-bottom: 15px; }
+
+.service-thumb.sticky {
+  height: 100%; }
+  .service-thumb.sticky img {
+    position: sticky;
+    top: 20vh; }
+
+.service-area .single-service h3, .service-area .single-service p {
+  color: #0564AD; }
+
+/*# sourceMappingURL=custom.css.map */
