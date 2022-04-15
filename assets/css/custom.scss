@@ -2,12 +2,36 @@
     span {
         b {
             font-size: 25px;
+            position: relative;
+
+            &::after {
+                content: "";
+                bottom: 5px;
+                left: 0;
+                position: absolute;
+                width: 100%;
+                height: 10px;
+                background: #a5d9bc;
+                z-index: -1;
+            }
         }
     }
 
     p {
         strong {
             font-weight: 900;
+            position: relative;
+
+            &::after {
+                content: "";
+                bottom: 2px;
+                left: 0px;
+                position: absolute;
+                width: 95%;
+                height: 4px;
+                background: #a5d9bc;
+                z-index: -1;            
+            }
         }
 
         margin: 5px 0;
