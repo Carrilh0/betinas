@@ -37,4 +37,20 @@
 .service-area .single-service h3, .service-area .single-service p {
   color: #0564AD; }
 
+.service-content {
+  padding: 1.5rem !important; }
+  .service-content h3 {
+    font-size: 25px; }
+  .service-content p {
+    font-size: 12px; }
+
+.slick-prev:before, .slick-next:before {
+  color: #8b96a8 !important; }
+
+footer {
+  background: #183884;
+  padding: 40px 0; }
+  footer * {
+    color: #fff; }
+
 /*# sourceMappingURL=custom.css.map */

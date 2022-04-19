@@ -61,3 +61,28 @@
         }
     }
 }
+
+.service-content {
+    padding: 1.5rem !important;
+    
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #8b96a8 !important;
+}
+
+footer {
+    background: #183884;
+    padding: 40px 0;
+
+    * {
+        color: #fff;
+    }
+}

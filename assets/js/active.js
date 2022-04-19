@@ -164,32 +164,32 @@
     });
 
     // :: 13.0 REVIEWS ACTIVE CODE
-    $('.client-reviews.owl-carousel').owlCarousel({
-        loop: true,
-        center: true,
-        margin: 40,
-        nav: false,
-        dots: false,
-        smartSpeed: 1000,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        animateOut: 'slideOutDown',
-        animateIn: 'flipInX',
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 2
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            }
-        }
-    });
+    // $('.client-reviews.owl-carousel').owlCarousel({
+    //     loop: true,
+    //     center: true,
+    //     margin: 40,
+    //     nav: false,
+    //     dots: false,
+    //     smartSpeed: 1000,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     animateOut: 'slideOutDown',
+    //     animateIn: 'flipInX',
+    //     responsive: {
+    //         0: {
+    //             items: 1
+    //         },
+    //         576: {
+    //             items: 2
+    //         },
+    //         768: {
+    //             items: 2
+    //         },
+    //         992: {
+    //             items: 3
+    //         }
+    //     }
+    // });
 
     // :: 14.0 PORTFOLIO ACTIVE CODE
     $('.portfolio-area').each(function(index) {
