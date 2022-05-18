@@ -7,6 +7,11 @@ html, body {
 .navbar-nav.action svg {
   font-size: 20px; }
 
+@media only screen and (max-width: 600px) {
+  .flex-column-reverse-mobile {
+    display: flex;
+    flex-direction: column-reverse; } }
+
 .content-text {
   margin: 10px; }
   .content-text span b {
