@@ -1,5 +1,6 @@
 html, body {
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important;
+  cursor: url("/assets/logo-b-cursor.png"), auto; }
 
 #about {
   overflow: hidden !important; }

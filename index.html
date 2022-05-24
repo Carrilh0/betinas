@@ -14,7 +14,7 @@
     <title>Betinas - SEO & Digital Marketing Agency HTML Template | Homepage-4 One Page</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/logo-b.png">
 
     <!-- ***** All CSS Files ***** -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -102,25 +102,25 @@
                             <a class="nav-link scroll" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#about">About</a>
+                            <a class="nav-link scroll" href="#metodologia">Metodologia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#services">Services</a>
+                            <a class="nav-link scroll" href="#cursos">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#portfolio">Portfolio</a>
+                            <a class="nav-link scroll" href="#equipe">Equipe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#pricing">Pricing</a>
+                            <a class="nav-link scroll" href="#pricing">Localização</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#contact">Contact</a>
+                            <a class="nav-link scroll" href="#contact">Notícias</a>
                         </li>
                     </ul>
                     <!-- Navbar Icons -->
                     <ul class="navbar-nav icons">
                         <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/betinas.englishcourse/" class="nav-link"><i class="fab fa-facebook-f"></i></a>
                         </li>
                     </ul>
 
@@ -160,7 +160,7 @@
                             </p>
                             <!-- Buttons -->
                             <div class="button-group">
-                                <a href="#" class="btn btn-bordered-white">Ver Cursos</a>
+                                <a href="#cursos" class="btn btn-bordered-white">Ver Cursos</a>
                                 <a href="https://api.whatsapp.com/send?phone=5571993344079&text=Ol%C3%A1%2C%20Betina%E2%80%99s%20team%20%F0%9F%98%83%20%20Tenho%20interesse%20em%20falar%20com%20voc%C3%AAs!" target="_blank" class="btn btn-bordered-white d-none d-sm-inline-block whats-link">Agendar Visita</a>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
         <!-- ***** Welcome Area End ***** -->
 
         <!-- ***** Brand Partner Area Start ***** -->
-        <section id="" data-aos="fade-right" class="section brand-partner bg-green-2 ptb_100">
+        <section id="metodologia" data-aos="fade-right" class="section brand-partner bg-green-2 ptb_100">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
@@ -241,7 +241,7 @@
         <!-- ***** Brand Partner Area End ***** -->
 
         <!-- ***** Content Area Start ***** -->
-        <section id="about" class="section content-area bg-green ptb_150">
+        <section id="cursos" class="section content-area bg-green ptb_150">
             <!-- Shape Top -->
             <div class="shape shape-top">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"
@@ -339,7 +339,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5571993344079&text=Ol%C3%A1%2C%20Betina%E2%80%99s%20team%20%F0%9F%98%83%20%20Tenho%20interesse%20em%20falar%20com%20voc%C3%AAs!" class="btn btn-bordered mt-4 whats-link">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -357,7 +357,7 @@
         <!-- ***** Content Area End ***** -->
 
         <!-- ***** Service Area End ***** -->
-        <section id="services" class="section service-area ptb_100">
+        <section id="equipe" class="section service-area ptb_100">
             <!-- Shape Top -->
             <div data-aos="fade-down" class="container">
                 <div class="row justify-content-center">
@@ -460,7 +460,7 @@
         <!-- ***** Service Area End ***** -->
 
         <!-- ***** Review Area Start ***** -->
-        <section id="review" class="section review-area bg-overlay ptb_100">
+        <section id="noticias" class="section review-area bg-overlay ptb_100">
             <div data-aos="fade-right" class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-7">
@@ -546,7 +546,7 @@
         <!-- ***** Review Area End ***** -->
 
         <!--====== Contact Area Start ======-->
-        <section id="contact" class="contact-area ptb_100">
+        <section id="localizacao" class="contact-area ptb_100">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-lg-12">
@@ -679,8 +679,7 @@
             return check;
         };
         $(document).ready(function() {
-            alert()
-            if (mobileCheck()) {
+            if (mobileCheck() == false) {
                 document.querySelectorAll('.whats-link').forEach((button) => {
                     button.href = button.href.replace('api', 'web')
                 })
